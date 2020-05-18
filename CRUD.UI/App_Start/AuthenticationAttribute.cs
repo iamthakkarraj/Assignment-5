@@ -22,8 +22,8 @@ namespace CRUD.UI {
 
             RouteValueDictionary redirectTargetDictionary = new RouteValueDictionary();
 
-            redirectTargetDictionary.Add("action", "Index");
-            redirectTargetDictionary.Add("controller", "Login");
+            redirectTargetDictionary.Add("action", "Login");
+            redirectTargetDictionary.Add("controller", "Authentication");
             redirectTargetDictionary.Add("area", "");
 
             if (IsAuthenticated) {

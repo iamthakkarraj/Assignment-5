@@ -39,8 +39,10 @@ namespace CRUD.UI.Controllers {
         public ActionResult Create(UserModel user) {
             try {
                 if (_UserService.AddUser(user)) {
+                    TempData["Success"] = "User Created Successfully !";
                     return RedirectToAction("Index");
                 } else {
+                    TempData["Erro"] = "Error Creating Users.";
                     return View();
                 }                
             }
@@ -59,11 +61,12 @@ namespace CRUD.UI.Controllers {
         public ActionResult Edit(UserModel user) {
             try {
                 if (_UserService.UpdateUser(user)) {
-                    ViewBag.Success = "User Updated Successfully !";
+                    TempData["Success"] = "User Updated Successfully !";
+                    return RedirectToAction("Index");
                 } else {
-                    ViewBag.Error = "Error Updating User.";
-                }
-                return RedirectToAction("Index");
+                    TempData["Error"] = "Error Updating User.";
+                    return View();
+                }                
             }
             catch {
                 return View();
@@ -73,11 +76,11 @@ namespace CRUD.UI.Controllers {
         // GET: User/Delete/5
         public ActionResult Delete(int id) {
             if (_UserService.DeleteUser(id)) {
-                ViewBag.Success = "User Deleted Successfully !";
+                TempData["Success"] = "User Deleted Successfully !";
             } else {
-                ViewBag.Error = "Error Deleting User.";
+                TempData["Error"] = "Error Deleting User.";
             }
-            return View();
+            return RedirectToAction("Index");
         }
         
     }

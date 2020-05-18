@@ -1,0 +1,248 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/iamth/Documents/Code/ASP.NET/Assignment-5/CRUDAssignment/CRUD.DAL",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "0Ke77eSHLwwWREZvQhu4Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "ySgpR4TMkJHHSSEHzcPbcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ZTwon3/KBg7GZzB53cAydA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Database.CRUDAssignmentEntities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Database.CRUDAssignmentEntities.html",
+          "hash": "Lv+0ZvCSQPcHEJjKLV3xHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Database.Login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Database.Login.html",
+          "hash": "F8lwq/tdYhHQBF9vp8cMSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Database.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Database.User.html",
+          "hash": "P78HCXZBTwM3oYkSgbGkeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Database.html",
+          "hash": "jLCu3OEy++N0s4aDKTopxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Interface.IAuthenticationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Interface.IAuthenticationRepository.html",
+          "hash": "GRHs8Je+paB+Tf/+jvkCAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Interface.IUserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Interface.IUserRepository.html",
+          "hash": "0ASjTiqPWiA7K5W2jgO5AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Interface.html",
+          "hash": "OKIpmvjRG+CDeVtI0366vQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Repository.AuthenticationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Repository.AuthenticationRepository.html",
+          "hash": "RW+1DRWZBT1xmTwAVxTUnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Repository.UserRespository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Repository.UserRespository.html",
+          "hash": "zqYM/kFddqmbME5h0KpBfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.DAL.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.DAL.Repository.html",
+          "hash": "yK73YTR33RSooWsS1+juEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "M09dGnbeWJzAsgp5mEIljg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

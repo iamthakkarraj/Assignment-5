@@ -3,6 +3,23 @@
 @{
     ViewBag.Title = "Index";
 }
+
+@if (TempData["Success"] != null) {
+    <script>        
+        $(document).ready(function () {
+            toastr.success("@TempData["Success"].ToString()");
+        });
+    </script>
+}
+
+@if (TempData["Error"] != null) {
+    <script>
+        $(document).ready(function () {
+            toastr.error("@TempData["Error"].ToString()");
+        });
+    </script>
+}
+
 <section class="d-flex justify-content-around">
 
     <div class="text-light w-25 d-flex flex-column justify-content-center">
@@ -11,8 +28,9 @@
         </h1>
         <h1 class="text-center">
             Welcome Admin
-        </h1> <br>         
+        </h1> <br>
         <h4 class="text-center">Online User Portal <i class="fa fa-users" aria-hidden="true"></i> </h4>
+        <a href="/Authentication/Logout" class="w-25 mx-auto mt-3 btn btn-dark shadow">Logout</a>
     </div>
 
     <div class="bg-light w-75 ml-auto p-3 text-dark shadow-lg" style="height:100vh;overflow-y:scroll">
@@ -23,17 +41,19 @@
 
         <hr />
 
-        <table class="table table-striped">
-            <tr>
-                <th>
-                    Name
-                </th>
-                <th>
-                    Phone
-                </th>
-                <th>
-                </th>
-            </tr>
+        <table class="table table-striped rounded shadow">
+            <thead class="bg-primary text-light rounded">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Phone
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+            </thead>
 
             @foreach (var item in Model) {
                 <tr>
@@ -41,7 +61,7 @@
                         @item.Name
                     </td>
                     <td class="pt-4">
-                        @item.Phone
+                        <span style="opacity:0.7">+91&nbsp;</span>@item.Phone
                     </td>
                     <td>
                         <a href="/User/Edit/@item.UserId"
@@ -55,13 +75,14 @@
                         <a href="/User/Details/@item.UserId"
                            class="btn btn-success shadow">
                             <i class="fa fa-address-card" aria-hidden="true"></i>
-                        </a>                        
-                        
+                        </a>
+
                     </td>
                 </tr>
             }
 
         </table>
+
     </div>
 
 </section>

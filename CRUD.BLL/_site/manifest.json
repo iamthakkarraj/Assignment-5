@@ -1,0 +1,260 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/iamth/Documents/Code/ASP.NET/Assignment-5/CRUDAssignment/CRUD.BLL",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "XSph4/ntKiN+u5lk+x8vgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "51nRLwlC5w7+2fl4KXCnmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "7UT36qAcwZZ3XzQxFsG5Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.Interface.IAuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.Interface.IAuthenticationService.html",
+          "hash": "HM1AcA1DQU7LfH11Lx2Zkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.Interface.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.Interface.IUserService.html",
+          "hash": "1uWGX4qTw63JkV3W4M81ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.Interface.html",
+          "hash": "OhrDg99+pGEMHBWte/tj2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.ModelMapperService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.ModelMapperService.html",
+          "hash": "YctIDZlhRpD9PI36U1OZ2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.Service.AuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.Service.AuthenticationService.html",
+          "hash": "fEjib1xlPoGDku6r9Lm7tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.Service.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.Service.UserService.html",
+          "hash": "i37sgQwEb0ACtd0yK9o5+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.Service.html",
+          "hash": "qSKf6TRnRwL05/DcDG4vOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.ViewModels.LoginModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.ViewModels.LoginModel.html",
+          "hash": "X+Av48/oDaZGYsVlk68P9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.ViewModels.UserModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.ViewModels.UserModel.html",
+          "hash": "51R0KJ+8kSEw48dJe1lGMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.ViewModels.html",
+          "hash": "Kmf0HJEzQiEZMu0e45l2mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.BLL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.BLL.html",
+          "hash": "WN0OM7++1TYEH/jlBUYaUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "K82TbyaQwwoUqW8ifaeo8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/iamth/Documents/Code/ASP.NET/Assignment-5/CRUDAssignment/CRUD.UI",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "eh87Wtc79WDvGn8wNpjh/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "v7EySe8qEg0p0mfS7YlZYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "KtrtbjtqD/d8kegj+m0rDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.AuthenticationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.AuthenticationAttribute.html",
+          "hash": "8udQcrq8+NAzhUYUIkaQmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.BundleConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.BundleConfig.html",
+          "hash": "7no4M4xwFQqY+ygSyMJXug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.Controllers.AuthenticationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.Controllers.AuthenticationController.html",
+          "hash": "oyqfF6/gixmO2HdHcveomA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.Controllers.UserController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.Controllers.UserController.html",
+          "hash": "pnh+CmrWZzfXg02U1/XBDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.Controllers.html",
+          "hash": "v+CTQ0u0QiQXo8Nt1puNdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.FilterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.FilterConfig.html",
+          "hash": "LzEJwP7FalZuSUhXgT7TRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.MvcApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.MvcApplication.html",
+          "hash": "4C1phx2WDVOW1aTBKyYIcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.RouteConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.RouteConfig.html",
+          "hash": "PSCKrQTrUSbEanUnB/NoAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CRUD.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CRUD.UI.html",
+          "hash": "sbbn1YBUR7ZmPb/hoHzRRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "zWX1guW2OVDpNkKuBx9c3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
