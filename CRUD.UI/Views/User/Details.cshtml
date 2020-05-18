@@ -1,7 +1,46 @@
-﻿
+﻿@model CRUD.BLL.ViewModels.UserModel
+
 @{
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<section class="d-flex justify-content-around bg-primary">
 
+    <div class="text-light w-25 d-flex flex-column justify-content-center">
+        <h1 class="text-center">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+        </h1>
+        <h1 class="text-center">
+            Welcome Admin
+        </h1> <br>
+        <h4 class="text-center">Online User Portal <i class="fa fa-users" aria-hidden="true"></i> </h4>
+    </div>
+
+    <div class="bg-light w-75 shadow-lg ml-auto p-5 text-dark shadow-lg" style="height:100vh;overflow-y:scroll;z-index:99">
+        <div class="m-0 row">
+            <h4 class="px-2 mt-1 text-primary" style="vertical-align:middle">User Details</h4>
+            <a href="/User/Index/" class="btn btn-primary shadow"> < Back to List</a>
+        </div>
+
+        <hr />
+
+        <dl>
+            <dt>Name</dt>
+            <dd>@Model.Name</dd>
+            <dt>Email</dt>
+            <dd>@Model.Email</dd>
+            <dt>Phone No</dt>
+            <dd>@Model.Phone</dd>
+            <dt>Birthdate</dt>
+            <dd>@Model.Birthdate</dd>
+            <dt>Gender</dt>
+            @if (Model.Gender) {
+                <dd>Male</dd>
+            } else {
+                <dd>Female</dd>
+            }            
+        </dl>
+
+    </div>
+
+</section>

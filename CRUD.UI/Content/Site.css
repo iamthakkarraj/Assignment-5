@@ -10,6 +10,21 @@ body{
     height:100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--light);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+}
+   
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,

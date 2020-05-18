@@ -1,7 +1,67 @@
-﻿
+﻿@model IEnumerable<CRUD.BLL.ViewModels.UserModel>
+
 @{
     ViewBag.Title = "Index";
 }
+<section class="d-flex justify-content-around">
 
-<h2>Index</h2>
+    <div class="text-light w-25 d-flex flex-column justify-content-center">
+        <h1 class="text-center">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+        </h1>
+        <h1 class="text-center">
+            Welcome Admin
+        </h1> <br>         
+        <h4 class="text-center">Online User Portal <i class="fa fa-users" aria-hidden="true"></i> </h4>
+    </div>
 
+    <div class="bg-light w-75 ml-auto p-3 text-dark shadow-lg" style="height:100vh;overflow-y:scroll">
+        <div class="m-0 row">
+            <h4 class="px-2" style="vertical-align:middle">List of Users</h4>
+            <a href="/User/Create/" class="btn btn-primary shadow">+ Creat New</a>
+        </div>
+
+        <hr />
+
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Phone
+                </th>
+                <th>
+                </th>
+            </tr>
+
+            @foreach (var item in Model) {
+                <tr>
+                    <td class="pt-4">
+                        @item.Name
+                    </td>
+                    <td class="pt-4">
+                        @item.Phone
+                    </td>
+                    <td>
+                        <a href="/User/Edit/@item.UserId"
+                           class="btn btn-primary shadow">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </a>
+                        <a href="/User/Delete/@item.UserId"
+                           class="btn btn-danger shadow">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                        </a>
+                        <a href="/User/Details/@item.UserId"
+                           class="btn btn-success shadow">
+                            <i class="fa fa-address-card" aria-hidden="true"></i>
+                        </a>                        
+                        
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+
+</section>

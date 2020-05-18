@@ -21,12 +21,12 @@ namespace CRUD.UI.Controllers {
 
         // GET: User
         public ActionResult Index() {
-            return View();
+            return View(_UserService.GetUsers());
         }
 
         // GET: User/Details/5
         public ActionResult Details(int id) {
-            return View();
+            return View(_UserService.GetUser(id));
         }
 
         // GET: User/Create
@@ -38,7 +38,11 @@ namespace CRUD.UI.Controllers {
         [HttpPost]
         public ActionResult Create(UserModel user) {
             try {
-                return RedirectToAction("Index");
+                if (_UserService.AddUser(user)) {
+                    return RedirectToAction("Index");
+                } else {
+                    return View();
+                }                
             }
             catch {
                 return View();
@@ -47,13 +51,18 @@ namespace CRUD.UI.Controllers {
 
         // GET: User/Edit/5
         public ActionResult Edit(int id) {
-            return View();
+            return View(_UserService.GetUser(id));
         }
 
         // POST: User/Edit/5
         [HttpPost]
         public ActionResult Edit(UserModel user) {
-            try {                
+            try {
+                if (_UserService.UpdateUser(user)) {
+                    ViewBag.Success = "User Updated Successfully !";
+                } else {
+                    ViewBag.Error = "Error Updating User.";
+                }
                 return RedirectToAction("Index");
             }
             catch {
@@ -63,6 +72,11 @@ namespace CRUD.UI.Controllers {
 
         // GET: User/Delete/5
         public ActionResult Delete(int id) {
+            if (_UserService.DeleteUser(id)) {
+                ViewBag.Success = "User Deleted Successfully !";
+            } else {
+                ViewBag.Error = "Error Deleting User.";
+            }
             return View();
         }
         

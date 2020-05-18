@@ -11,7 +11,7 @@ namespace CRUD.UI {
 
         public override void OnActionExecuting(ActionExecutingContext filterContext) {
 
-            bool IsAuthenticated = (bool) 
+            bool IsAuthenticated = (bool)
                 (filterContext
                 .HttpContext
                 .Session["IsAuthenticated"] != null 
