@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using CRUD.BLL.ViewModels;
 
 namespace CRUD.BLL.Interface {
 
-    interface IUserService {
+    public interface IUserService {
+
+        List<UserModel> GetUsers();
+        UserModel GetUser(int id);
+        bool AddUser(UserModel user);
+        bool UpdateUser(UserModel user);
+        bool DeleteUser(int id);
 
     }
 

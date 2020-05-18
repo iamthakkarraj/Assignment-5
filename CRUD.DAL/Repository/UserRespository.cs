@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CRUD.DAL.Database;
 using CRUD.DAL.Interface;
 
 namespace CRUD.DAL.Repository {
 
-    class UserRespository : IUserRepository {
+    public class UserRespository : IUserRepository {
         
         private readonly CRUDAssignmentEntities DBContext;
         
@@ -24,7 +23,7 @@ namespace CRUD.DAL.Repository {
         }
 
         public List<User> GetUsers() {
-            return DBContext.Users.ToList()
+            return DBContext.Users.ToList();
         }
 
         public bool AddUser(User user) {
@@ -39,7 +38,9 @@ namespace CRUD.DAL.Repository {
 
         public bool UpdateUser(User user) {
             try {
-                DBContext.Users.Add(user);
+                DBContext
+                    .Entry(user)
+                    .State = EntityState.Modified;
                 DBContext.SaveChanges();
                 return true;
             } catch (Exception e) {
@@ -47,9 +48,23 @@ namespace CRUD.DAL.Repository {
             }
         }
 
-        public bool DeleteUser() {
-            throw new NotImplementedException();
+        public bool DeleteUser(int id) {
+            try {
+                DBContext
+                .Users
+                .Remove(
+                    DBContext
+                    .Users
+                    .Where(x => x.UserId == id)
+                    .FirstOrDefault());
+                DBContext.SaveChanges();
+
+                return true;
+            } catch (Exception e) {
+                return false;
+            }
         }
+
     }
 
 }
